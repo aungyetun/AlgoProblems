@@ -51,4 +51,19 @@ public class Apple {
         return maxprice - minprice;
     }
     
+    
+    public static int[] ProductArray(int[] anArray){
+        int[] Beforeindex = new int[anArray.length];
+        int ProductSoFar =1;
+        for(int i =0;i<anArray.length;i++){
+            Beforeindex[i]= ProductSoFar;
+            ProductSoFar *=Beforeindex[i];
+        }
+        
+        for(int i = anArray.length;i>0;i--){
+            
+        }
+        
+        return anArray;
+    }
 }
